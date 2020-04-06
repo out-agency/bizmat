@@ -1,0 +1,30 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page8556128.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^buh$ page7529016.html [NC]
+RewriteRule ^buh/$ page7529016.html [NC]
+
+RewriteRule ^calc$ page8577047.html [NC]
+RewriteRule ^calc/$ page8577047.html [NC]
+
+RewriteRule ^test$ page8588910.html [NC]
+RewriteRule ^test/$ page8588910.html [NC]
+
+RewriteRule ^pulse$ page8851068.html [NC]
+RewriteRule ^pulse/$ page8851068.html [NC]
+
+RewriteRule ^docshunter$ page8860099.html [NC]
+RewriteRule ^docshunter/$ page8860099.html [NC]
+
+RewriteRule ^meeting$ page9649829.html [NC]
+RewriteRule ^meeting/$ page9649829.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+

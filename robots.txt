@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /page8859557.html
+Disallow: /page8859716.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://matembiz.ru/sitemap.xml
+Host: matembiz.ru
